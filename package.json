@@ -1,11 +1,11 @@
 {
   "name": "agent-compat-lab",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "type": "module",
   "description": "A local experiment for checking coding-agent patches.",
   "bin": {"agentlab": "./cli.mjs"},
-  "scripts": {"test": "node --test cli.test.mjs", "demo": "node cli.mjs demo"},
+  "scripts": {"test": "node --test cli.test.mjs", "demo": "node cli.mjs demo", "doctor": "node cli.mjs doctor"},
   "engines": {"node": ">=22"},
   "license": "UNLICENSED"
 }
